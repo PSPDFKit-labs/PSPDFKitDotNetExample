@@ -17,8 +17,11 @@ internal class Program
         documentToEdit.Save(new DocumentSaveOptions { flattenAnnotations = true });
         
         var documentEditor = documentToEdit.CreateDocumentEditor();
-        documentEditor.ImportDocument(0, DocumentEditor.IndexPosition.BeforeIndex, new FileDataProvider("secondDocument.pdf"));
+        documentEditor.ImportDocument(0, DocumentEditor.IndexPosition.AfterIndex, new FileDataProvider("secondDocument.pdf"));
         var filepath = baseDir + "documentEditorOutput.pdf";
         documentEditor.SaveDocument(new FileDataProvider(filepath));
+
+        string outputJsonFileName = baseDir + "output.json";
+        documentToEdit.ExportDocumentJson(new FileDataProvider(outputJsonFileName));
     }
 }

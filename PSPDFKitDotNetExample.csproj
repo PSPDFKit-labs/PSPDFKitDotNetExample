@@ -18,6 +18,7 @@
   <ItemGroup>
     <None Remove="firstDocument.pdf" />
     <None Remove="instant.json" />
+    <None Remove="output.json" />
     <None Remove="secondDocument.pdf" />
   </ItemGroup>
 
@@ -26,6 +27,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="instant.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="output.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="secondDocument.pdf">

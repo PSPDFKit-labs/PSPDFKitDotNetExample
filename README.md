@@ -1,6 +1,6 @@
 # PSPDFKitDotNetExample
 
-a simple example of using the PSPDFKit .NET library
+a simple example of using the PSPDFKit.NET library
 
 - firstDocument.pdf is opened
 - instant.json is applied to firstDocument.pdf

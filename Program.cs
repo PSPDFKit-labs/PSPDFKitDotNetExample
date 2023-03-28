@@ -13,8 +13,8 @@ internal class Program
 
         
         documentToEdit.ImportDocumentJson(new FileDataProvider(baseDir + "instant.json"));
-        
-        documentToEdit.Save(new DocumentSaveOptions { flattenAnnotations = true });
+
+        //documentToEdit.Save(new DocumentSaveOptions { flattenAnnotations = true });
         
         var documentEditor = documentToEdit.CreateDocumentEditor();
         documentEditor.ImportDocument(0, DocumentEditor.IndexPosition.AfterIndex, new FileDataProvider("secondDocument.pdf"));

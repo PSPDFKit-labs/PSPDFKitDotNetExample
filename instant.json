@@ -1,0 +1,43 @@
+{
+    "annotations": [
+        {
+            "backgroundColor": "#2293FB",
+            "bbox": [ 50, 50, 150, 150 ],
+            "borderWidth": 0,
+            "createdAt": "1970-01-01T00:00:00Z",
+            "font": "Helvetica",
+            "fontColor": "#FFFFFF",
+            "fontSize": 18,
+            "fontStyle": [ "bold" ],
+            "horizontalAlign": "center",
+            "id": "01GW43A2M7W4EG2JJSXTG2ZN3R",
+            "isFitting": true,
+            "name": "01GW43A2M7W4EG2JJSXTG2ZN3R",
+            "opacity": 1,
+            "pageIndex": 0,
+            "rotation": 0,
+            "text": {
+                "format": "plain",
+                "value": "Welcome to\nPSPDFKit"
+            },
+            "type": "pspdfkit/text",
+            "updatedAt": "1970-01-01T00:00:00Z",
+            "v": 2,
+            "verticalAlign": "center"
+        },
+        {
+            "bbox": [ 390, 380, 120, 120 ],
+            "createdAt": "1970-01-01T00:00:00Z",
+            "id": "01GW43A2M7S54JWSBGMG0ENB59",
+            "name": "01GW43A2M7S54JWSBGMG0ENB59",
+            "opacity": 1,
+            "pageIndex": 0,
+            "strokeColor": "#2293FB",
+            "strokeWidth": 5,
+            "type": "pspdfkit/shape/ellipse",
+            "updatedAt": "1970-01-01T00:00:00Z",
+            "v": 2
+        }
+    ],
+    "format": "https://pspdfkit.com/instant-json/v1"
+}
